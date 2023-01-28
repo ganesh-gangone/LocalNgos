@@ -34,6 +34,7 @@
     padding-bottom: 5px;
     position: relative;
     animation: text 1s 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .ul-nav1{
     align-items: right;
@@ -78,16 +79,20 @@ nav ul li{
 .slide-corousel{
     
     font-weight: bold;
-    font-size: 70px;
+    font-size: 60px;
     color: white;
     position: relative;
     animation: text 2s 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 .slide-para{
     font-size: 20px;
     color: white;
     position: relative;
     animation: text 2s 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 .slide-donate{
     background-color: #ea1538;
