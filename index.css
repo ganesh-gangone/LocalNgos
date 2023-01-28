@@ -89,7 +89,6 @@ nav ul li{
     color: white;
     position: relative;
     animation: text 2s 1;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 .slide-para{
@@ -97,8 +96,7 @@ nav ul li{
     color: white;
     position: relative;
     animation: text 2s 1;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+   
 }
 .slide-donate{
     background-color: #ea1538;
