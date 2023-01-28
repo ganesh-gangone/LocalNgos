@@ -47,6 +47,10 @@
     padding-left: 16vw;
     padding-top: 35vh;
 }
+.caption-cor{
+    padding: 3px;
+    border-radius: 20px;
+}
 .cor-block-1{
     background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
     background-size: cover;
@@ -54,6 +58,7 @@
     height: 85vh;
     padding-left: 16vw;
     padding-top: 35vh;
+  
 }
 .cor-block-3{
     background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg");
@@ -62,6 +67,7 @@
     height: 85vh;
     padding-left: 16vw;
     padding-top: 35vh;
+    
 }
 
 .logo1{
@@ -103,7 +109,7 @@ nav ul li{
     color: white;
     border-width: 0px;
     position: relative;
-    animation: text 3s 1;
+    animation: text 2s 1;
     
 }
 
@@ -128,24 +134,29 @@ nav ul li{
     cursor: pointer;
 }
 
+
 @keyframes text{
     0%{
         color:transparent;
         background-color: transparent;
         margin-top: -40px;
+        background-size: 150%;
     }
     30%{
         color:transparent;
         background-color: transparent;
         margin-top: -40px;
+        background-size: auto;
     }
     
     60%{
         background-color: transparent;
+        background-size: auto;
 
     }
     80%{
         background-color: transparent;
+        background-size: auto;
     }
     }
     
