@@ -157,4 +157,41 @@ nav ul li{
         background-size: auto;
     }
     }
+    .navs1 .nav-hamburger{
+        display: none;
+        position: absolute;
+        top: 35px;
+        right: 50px;
+        width: 75px;
+    }
+
+    @media screen and (max-width : 768px) {
+        .d-none d-md-block cor-block-2{
+            display: none;
+        }
+        .navs1{
+            padding: 0;
+        }
+        .navs1 .nav-hamburger{
+            display: block;
+        }
+        .navhide{
+            top: 0;
+            left: 0;
+            position:absolute;
+            background-color: rgba(255, 255, 255, 0.20);
+            backdrop-filter: blur(8px);
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .navhide ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
     
