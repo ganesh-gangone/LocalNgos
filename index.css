@@ -157,6 +157,9 @@ nav ul li{
         background-size: auto;
     }
     }
+    
+
+    /*Responsive nav bar*/
     .navs1 .nav-hamburger{
         display: none;
         position: absolute;
@@ -166,9 +169,6 @@ nav ul li{
     }
 
     @media screen and (max-width : 768px) {
-        .d-none d-md-block cor-block-2{
-            display: none;
-        }
         .navs1{
             padding: 0;
         }
@@ -192,6 +192,15 @@ nav ul li{
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+        .navs1 ul li{
+            margin: 20px 0;
+            
+        }
+        .logo1{
+            position: absolute;
+            left: 50px;
+            top: 50px;
         }
     }
     
