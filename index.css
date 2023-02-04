@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
 }
+.div-of-nav{
+    position: sticky;
+    top: 0;
+}
 .navs1{
     height: 10vh;
     width: 100%;
