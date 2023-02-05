@@ -12,10 +12,8 @@
     height: 10vh;
     width: 100%;
     background-color:white;
-    position: sticky;
-    top: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 12px;
     padding-left: 5%;
     padding-right: 5%;
@@ -44,7 +42,7 @@
     align-items: right;
 }
 .cor-block-2{
-    background-image: url("https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_960_720.jpg");
+    background-image: url("https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1208&q=80");
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -56,7 +54,7 @@
     border-radius: 20px;
 }
 .cor-block-1{
-    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+    background-image: url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -65,7 +63,7 @@
   
 }
 .cor-block-3{
-    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg");
+    background-image: url("https://images.unsplash.com/photo-1505455184862-554165e5f6ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -75,11 +73,11 @@
 }
 
 .logo1{
-    
+
     font-size: 28px;
 }
 .span1{
-    color: #ea1538;
+    color: #ea1538; 
 }
 nav ul li{
     list-style-type: none;
@@ -102,40 +100,69 @@ nav ul li{
     animation: text 2s 1;
    
 }
-.slide-donate{
+.slidedonate{
     background-color: #ea1538;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
+    width: 130px;
     padding-bottom: 10px;
     color: white;
     border-width: 0px;
     position: relative;
-    animation: text 2s 1;
-    
+    animation: text 2s 1; 
+    overflow: hidden;
+
+   /* position: relative;
+    margin: 10px;
+    padding-top:10px;
+   
+    background-color: #ea1538;
+    text-decoration: none;
+    overflow: hidden;
+    animation: text 2s 1; */
+}
+
+.slidedonate span{
+    position: relative;
+    z-index: 1;
+}
+
+.slidedonate::before{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%,-50%);
+    width: 0;
+    height: 0;
+    border-style: 2px solid transparent; 
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    transition: width 1.5s,height 1.5s;
 }
 @keyframes text{
     0%{
         color:transparent;
         background-color: transparent;
         margin-top: -40px;
-        background-size: 150%;
+        
     }
     30%{
         color:transparent;
         background-color: transparent;
         margin-top: -40px;
-        background-size: auto;
+        
     }
     
     60%{
         background-color: transparent;
-        background-size: auto;
+       
 
     }
     80%{
         background-color: transparent;
-        background-size: auto;
+        
     }
     }
 
@@ -170,20 +197,24 @@ nav ul li{
         width: 75px;
     }
 
-    @media screen and (max-width : 768px) {
-        .d-none d-md-block cor-block-2{
-            display: none;
-        }
-        .navs1{
+    @media screen and (max-width : 1110px) {
+        .navs1 {
             padding: 0;
         }
-        .navs1 .nav-hamburger{
+    
+        .navs1 .nav-hamburger {
+            position: absolute;
+    
             display: block;
+            top: 18px;
+            padding: 8px;
+            right: 18px;
         }
-        .navhide{
+    
+        .navhide {
             top: 0;
             left: 0;
-            position:absolute;
+            position: absolute;
             background-color: rgba(255, 255, 255, 0.20);
             backdrop-filter: blur(8px);
             width: 100%;
@@ -191,13 +222,28 @@ nav ul li{
             display: flex;
             justify-content: center;
             align-items: center;
-           
+            margin-left: -100%;
+            transition: all 0.5s ease;
+    
         }
-        .navhide ul{
+        .navhide.mobile-menu{
+            margin-left: 0;
+        
+        }
+    
+        .navhide ul {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+    
+        .navs1 .navhide ul li {
+            margin: 20px 0;
+            font-size: 1.2em;
+    
+    
+        }
+    
     }
     
 
@@ -409,8 +455,8 @@ nav ul li{
     height: 0;
     border-style: 2px solid transparent; 
     border-radius: 50%;
-    background: red;
-    transition: width 0.8s,height 0.8s;
+    background: rgb(255, 84, 84);
+    transition: width 0.4s,height 0.4s;
 
 }
 .btn1::before
@@ -424,8 +470,8 @@ nav ul li{
     height: 0;
     border-style: 2px solid transparent; 
     border-radius: 50%;
-    background: orange;
-    transition: width 0.8s,height 0.8s;
+    background: rgb(255, 207, 17);
+    transition: width 0.4s,height 0.4s;
 
 }
 .btn3::before
@@ -439,8 +485,8 @@ nav ul li{
     height: 0;
     border-style: 2px solid transparent; 
     border-radius: 50%;
-    background: purple;
-    transition: width 0.8s,height 0.8s;
+    background: rgb(255, 90, 255);
+    transition: width 0.4s,height 0.4s;
 
 }
 .btn2::before
@@ -454,8 +500,8 @@ nav ul li{
     height: 0;
     border-style: 2px solid transparent; 
     border-radius: 50%;
-    background:green;
-    transition: width 0.8s,height 0.8s;
+    background:rgb(49, 248, 49);
+    transition: width 0.4s,height 0.4s;
 
 }
 .second-cont-anchor{
@@ -466,6 +512,10 @@ nav ul li{
 .btn0:hover::before
 {
 
+    width: 1000px;
+    height: 1000px;
+}
+.slidedonate:hover::before{
     width: 1000px;
     height: 1000px;
 }
@@ -514,6 +564,9 @@ nav ul li{
 }
 .btn3 :hover{
     color: white
+}
+.slidedonate:hover{
+    color: white;
 }
 
     
