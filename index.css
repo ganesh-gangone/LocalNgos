@@ -73,8 +73,15 @@
 }
 
 .logo1{
-
+    height: 90px;
+    width: 80px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+.logo12{
     font-size: 28px;
+    padding: 10px;
+
 }
 .span1{
     color: #ea1538; 
@@ -109,6 +116,7 @@ nav ul li{
     padding-bottom: 10px;
     color: white;
     border-width: 0px;
+    border-radius: 3px;
     position: relative;
     animation: text 2s 1; 
     overflow: hidden;
@@ -172,6 +180,9 @@ nav ul li{
     text-decoration: none;
     
 }
+.new-navs1{
+    display: flex;
+}
 .button1{
     border: none;
     background:#ea1538 ;
@@ -216,7 +227,7 @@ nav ul li{
             left: 0;
             position: absolute;
             background-color: rgba(255, 255, 255, 0.20);
-            backdrop-filter: blur(8px);
+            backdrop-filter: blur(80px);
             width: 100%;
             height: 100vh;
             display: flex;
