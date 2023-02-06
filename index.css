@@ -315,7 +315,7 @@ transition: all 0.3s ease;
         position: absolute;
 
         display: block;
-        top: 18px;
+        top: -4px;
         padding: 8px;
         right: 18px;
     }
