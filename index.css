@@ -7,7 +7,6 @@
 
 .div-of-nav {
     position: sticky;
-    top: 0;
 }
 
 .navs1 {
@@ -305,21 +304,6 @@ transition: all 0.3s ease;
     background-color: #ffffff;
 }
 
-
-@media screen and (max-width : 1110px) {
-    .navs1 {
-        padding: 0;
-    }
-
-    .navs1 .nav-hamburger {
-        position: absolute;
-
-        display: block;
-        top: -4px;
-        padding: 8px;
-        right: 18px;
-    }
-
     @media screen and (max-width : 1110px) {
         .navs1 {
             padding: 0;
@@ -330,7 +314,6 @@ transition: all 0.3s ease;
     
             display: block;
             top: 18px;
-            padding: 8px;
             right: 18px;
         }
     
@@ -418,8 +401,6 @@ transition: all 0.3s ease;
         height: 100%;
     }
 
-
-}
 @media(max-width : 560px){
     .footer-col{
         width: 100%;
