@@ -320,7 +320,6 @@ transition: all 0.3s ease;
         right: 18px;
     }
 
-<<<<<<< HEAD
     @media screen and (max-width : 1110px) {
         .navs1 {
             padding: 0;
@@ -394,23 +393,6 @@ transition: all 0.3s ease;
        padding: 10px; 
        padding-left: 0px;
        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-=======
-    .navhide {
-        top: 0;
-        left: 0;
-        position: absolute;
-        background-color: rgba(255, 255, 255, 0.20);
-        background-color: whitesmoke;
-        box-shadow: 0 0 10px gray;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -100%;
-        transition: all 0.5s ease;
->>>>>>> 58b7905bce8f2c9de0ec57fea3a7a3c9aad20e0a
-
     }
 
     .navhide.mobile-menu {
@@ -430,16 +412,10 @@ transition: all 0.3s ease;
 
 
     }
-<<<<<<< HEAD
     .first-cont-img{
         padding-top: 10px;
         width: 100%;
         height: 100%;
-=======
-    .footer-col{
-        width: 50%;
-        margin-bottom: 30px;
->>>>>>> 58b7905bce8f2c9de0ec57fea3a7a3c9aad20e0a
     }
 
 
@@ -448,7 +424,6 @@ transition: all 0.3s ease;
     .footer-col{
         width: 100%;
     }
-<<<<<<< HEAD
     .second-cont-card-img{
         width: 100%;
         height: 70%;
@@ -511,7 +486,7 @@ transition: all 0.3s ease;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
     }
-=======
+
 }
 
 
@@ -566,8 +541,8 @@ transition: all 0.3s ease;
 }
 
 .first-cont-img {
-    width: 40vw;
-    height: 70vh;
+    width: 100%;
+    height: 100%;
 }
 
 .first-cont-part1 {
@@ -619,8 +594,8 @@ transition: all 0.3s ease;
 }
 
 .second-cont-card-img {
-    width: 400px;
-    height: 200px;
+    width: 100%;
+    height: 70%;
 }
 
 .second-cont-card-heading {
@@ -681,7 +656,7 @@ transition: all 0.3s ease;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
->>>>>>> 58b7905bce8f2c9de0ec57fea3a7a3c9aad20e0a
+
 
 /* cursor effect */
 .btn0,
@@ -866,7 +841,7 @@ transition: all 0.3s ease;
 
 .slidedonate:hover {
     color: white;
-<<<<<<< HEAD
+
 }
 .responsive-div{
     display: flex;
@@ -924,7 +899,3 @@ transition: all 0.3s ease;
         padding-left: 40px;
     }
     }
-
-=======
-}
->>>>>>> 58b7905bce8f2c9de0ec57fea3a7a3c9aad20e0a
