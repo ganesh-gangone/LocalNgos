@@ -920,18 +920,8 @@ transition: all 0.3s ease;
         font-size: 15px;
     }
     }
-
-
-    /*image slider*/
-    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Poppins', sans-serif;
-}
 .slider{
-min-height: 100vh;
+min-height: 55vh;
 display: flex;
 align-items: center;
 padding: 20px;
