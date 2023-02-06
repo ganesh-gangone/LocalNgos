@@ -258,6 +258,7 @@ ul{
     position: relative;
     
 }
+/*
 .footer-col h4::before{
     content: '';
     position: absolute;
@@ -268,6 +269,7 @@ ul{
     box-sizing: border-box;
     width: 50px;
 }
+*/
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
@@ -486,6 +488,15 @@ transition: all 0.3s ease;
         border-bottom-right-radius: 5px;
     }
 
+}
+
+.underline{
+    background-color: #ea1538;
+    width: 60px;
+    padding: 1px;
+    margin-top: -24px;
+    margin-bottom: 35px;
+    
 }
 
 
