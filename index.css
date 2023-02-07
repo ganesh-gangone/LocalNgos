@@ -517,6 +517,7 @@ transition: all 0.3s ease;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 10px;
     margin-left: 0px;
+    font-size: inherit;
 }
 
 .first-cont-heading {
@@ -931,10 +932,10 @@ transition: all 0.3s ease;
 
     }
     .slide-corousel{
-        font-size: 40px;
+        font-size: 30px;
     }
     .slide-para{
-        font-size: 15px;
+        font-size: 14px;
     }
     .first-cont-img{
         width: 320px;
@@ -942,6 +943,13 @@ transition: all 0.3s ease;
     }
     .first-section1{
         padding-left: 25px;
+    }
+    .slidedonate{
+    padding-left: 26px;
+    padding-right: 30px;
+    padding-top: 5px;
+    width: 110px;
+    padding-bottom: 10px;
     }
     }
 .slider{
