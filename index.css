@@ -876,6 +876,14 @@ transition: all 0.3s ease;
 
 
 }
+.nav-donate{
+    color: white;
+    text-decoration: none;
+}
+.nav-donate:hover{
+    color: white;
+    text-decoration: none;
+}
 
 @media screen and (max-width : 500px){
     .responsive-div{

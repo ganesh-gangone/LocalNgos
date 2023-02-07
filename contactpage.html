@@ -25,17 +25,17 @@
     <div class="div-of-nav">
         <nav class="navs1 navbar-fixed-top">
             <div class="new-navs1">
-              <img src="images/welogonobag.png" class="logo1" alt="">
+              <a href="index.html"><img src="images/welogonobag.png" class="logo1" alt=""></a>
               <h2 class="span1 logo12">TSWS</h2>
             </div>
             <div class="navhide">
             <ul class="ul-nav1">
-                <li class="li1"><a href="#home"  class="ul-content1">Home</a></li>
-                <li class="li1"><a href="#mission"  class="ul-content1">Mission&Vision</a></li>
+                <li class="li1"><a href="index.html"  class="ul-content1">Home</a></li>
+                <li class="li1"><a href="#mission"  class="ul-content1">Mission</a></li>
                 <li class="li1"><a href="#aboutus"  class="ul-content1">About us</a></li>
                 <li class="li1"><a href="#events"  class="ul-content1">Events</a></li>
-                <li class="li1"><a href="#contact"  class="ul-content1">Contact</a></li>
-                <button class="button1 slidedonate"><span>Donate</span></button>
+                <li class="li1"><a href="contactpage.html"  class="ul-content1">Contact</a></li>
+                <button class="button1 slidedonate"><span><a class="nav-donate" href="donatepage.html">Donate</a></span></button>
             </ul>
             </div>
           
@@ -50,9 +50,8 @@
 
 
     <div class="contactus">
-        <div class="title"><h2>CONTACT US</h2></div>
         <div id="home" class="contactbox">
-            <div class="contact form shadow-lg" data-aos="fade-up">
+            <div class="contact form shadow-lg">
                 <h3>Get a Message</h3>
                 <form action="">
                     <div class="formbox">
@@ -90,7 +89,7 @@
 
                    <div class="row100">
                     <div class="inputbox">
-                    <input type="submit" value="Send" >
+                        <button class="slidedonate"><span>Submit</span></button>
                     </div>
                    </div>  
                   </div>
@@ -144,6 +143,15 @@
             once:false,
             mirror:false}
           );
+          const slidedonate = document.querySelector(".slidedonate");
+                  slidedonate.onmousemove = function(e) 
+                  {
+                      const x=e.pageX - slidedonate.offsetLeft;
+                      const y=e.pageY - slidedonate.offsetTop;
+        
+                      slidedonate.style.setProperty('--x', x+'px');
+                      slidedonate.style.setProperty('--y', y+'px');
+                  }
         </script>
         <script src="navbar.js"></script>
 </body>
@@ -170,16 +178,6 @@
                     <li><a href="#">returns</a></li>
                     <li><a href="#">order status</a></li>
                     <li><a href="#">payment option</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>online shop</h4>
-                <div class="underline"></div>
-                <ul>
-                    <li><a href="#">watch</a></li>
-                    <li><a href="#">bag</a></li>
-                    <li><a href="#">shoes</a></li>
-                    <li><a href="#">dress</a></li>
                 </ul>
             </div>
             <div class="footer-col">

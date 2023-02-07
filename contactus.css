@@ -133,7 +133,7 @@ body{
 .inputbox input
 {
     padding: 10px;
-    font-size:1.1em;
+    font-size:20px;
     outline:none;
     border: 1px solid #333;
     
@@ -198,6 +198,14 @@ body{
   
   
 }
+.nav-donate{
+    color: white;
+    text-decoration: none;
+}
+.nav-donate:hover{
+    color: white;
+    text-decoration: none;
+}
 .info .infobox div span:hover
 {
     background-color:#fff;
@@ -214,6 +222,21 @@ body{
   color: #fff;
   text-decoration: none; 
   font-size: 1.5em;
+}
+
+@media screen and (max-width:500px){
+    .info .infobox div p
+{
+  color: #fff;
+  font-size: 17px; 
+
+}
+.info .infobox div a
+{
+  color: #fff;
+  text-decoration: none; 
+  font-size: 17px;
+}
 }
 .social
 {
@@ -432,6 +455,7 @@ nav ul li {
 .slidedonate span {
     position: relative;
     z-index: 1;
+    color: white;
 }
 
 .slidedonate::before {

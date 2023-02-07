@@ -1,3 +1,5 @@
+
+/*----------------------------navb& footer css------------------------------------*/
 * {
     padding: 0;
     margin: 0;
@@ -71,15 +73,6 @@ nav ul li {
     position: relative;
     animation: text 2s 1;
     overflow: hidden;
-
-    /* position: relative;
-    margin: 10px;
-    padding-top:10px;
-   
-    background-color: #ea1538;
-    text-decoration: none;
-    overflow: hidden;
-    animation: text 2s 1; */
 }
 
 .slidedonate span {
@@ -106,6 +99,14 @@ nav ul li {
     transition: .3s;
     text-decoration: none;
 
+}
+.nav-donate{
+    color: white;
+    text-decoration: none;
+}
+.nav-donate:hover{
+    color: white;
+    text-decoration: none;
 }
 
 .new-navs1 {
@@ -167,18 +168,7 @@ ul{
     position: relative;
     
 }
-/*
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: #e91e63;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
-*/
+
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
@@ -323,3 +313,4 @@ transition: all 0.3s ease;
         padding-bottom: 10px;
         }
 }
+/*--------------------------footer&navbar css-------------------------*/
