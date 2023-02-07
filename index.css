@@ -936,6 +936,7 @@ transition: all 0.3s ease;
     }
     .slide-para{
         font-size: 14px;
+        padding-right: 100px;
     }
     .first-cont-img{
         width: 320px;
