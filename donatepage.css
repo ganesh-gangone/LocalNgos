@@ -319,3 +319,82 @@ transition: all 0.3s ease;
         }
 }
 /*--------------------------footer&navbar css-------------------------*/
+
+.donate-bg-container{
+    background-image: url("https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    width: 100vw;
+    background-blend-mode: darken;
+    text-align: center;
+    padding: 160px;
+}
+.donate-heading{
+    font-size: 40px;
+    color: white;
+}
+.donate-para{
+    font-size: 20px;
+    color: white;
+}
+.part1-heading1{
+    font-size: 40px;
+    padding: 50px;
+}
+.part1-para1{
+    font-size: 18px;
+    padding: 40px;
+}
+.second-section-part1{
+    padding: 60px;
+    display: flex;
+}
+.second-section1{
+    padding: 20px;
+}
+.phonepe-div{
+    text-align: center;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+    margin: 100px;
+}
+@media screen and (max-width:500px){
+    .second-section-part1{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .donate-bg-container{
+        text-align: start;
+        padding: 50px;
+    }
+    .donate-heading{
+        font-size: 20px;
+        color: white;
+    }
+    .donate-para{
+        font-size: 14px;
+        color: white;
+    }
+    .part1-heading1{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .part1-para1{
+        font-size: 12px;
+        padding: 20px;
+    }
+   
+    .second-section1{
+        padding: 10px;
+}
+.phonepe-div{
+   
+    margin: 0px;
+}
+}
+.phonepe-para{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.phonepe-img{
+    width: auto;
+    height: auto;
+}

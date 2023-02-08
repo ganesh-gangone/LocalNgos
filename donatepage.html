@@ -12,7 +12,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -20,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
      <link rel="stylesheet" href="donatepage.css">
      <link rel="shortcut icon" type="x-icon" href="https://res.cloudinary.com/dgrm3sqpp/image/upload/v1675782525/TSWSICON.PNG_d9ec33.jpg">
-   
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="div-of-nav">
@@ -46,20 +45,52 @@
 
 
     <div class="donate-bg-container">
-        <h1 class="donate-heading">Donate To Help</h1>
-        <p class="donate-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum saepe voluptatum rem quae, nesciunt voluptas alias eos nemo, cum tempora, animi veritatis architecto laboriosam a possimus commodi. Error, repellendus repellat!</p>
-        <button class="donate-button">Donate</button>
+        <h1 class="donate-heading" data-aos="zoom-in">Donate To Help</h1>
+        <p class="donate-para" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum saepe voluptatum rem quae, nesciunt voluptas alias eos nemo, cum tempora, animi veritatis architecto laboriosam a possimus commodi. Error, repellendus repellat!</p>
+    </div>
+    <div id="home" class="second-section1">
+        <div class="second-section-part1">
+            <div data-aos="fade-right">
+            <h1 class="part1-heading1" >HELP US!</h1>
+            </div >
+            <div data-aos="zoom-in">
+            <p class="part1-para1" >Donating to a charity or non-profit organization is a great way to help those in need and make a difference in your community. Whether you’re looking to support a cause close to your heart or just want to do something good, donating can be an incredibly rewarding experience. <br> Once you’ve decided on an organization to donate to, it’s time to make your donation. Most organizations have an online donation page where you can enter your payment information and make a secure donation. Some organizations also accept donations via mail or through their website</p>
+            </div>
+        </div>
+        <div class="second-section-part1">
+            <div data-aos="fade-right">
+            <h1 class="part1-heading1" >WAYS TO DONATE!</h1>
+            </div>
+            <div data-aos="zoom-in">
+            <p class="part1-para1" >When it comes to donating, there are many options available. You can donate money directly to the organization, or you can donate goods such as clothing, furniture, and other items that may be of use. You can also volunteer your time and skills to help out with various projects.<br>  No matter what type of donation you choose, it’s important to do your research beforehand. Make sure the organization is legitimate and that they are using the donations for the intended purpose. It’s also important to read up on the tax implications of donating so that you can get the most out of your donation.</p>
+            </div>        
+        </div>
+        <div class="second-section-part1">
+            <div data-aos="fade-right">
+            <h1 class="part1-heading1" >TRACK YOUR DONATIONS!</h1>
+            </div>
+            <div data-aos="zoom-in">
+            <p class="part1-para1" data-aos="zoom-in">No matter how you choose to donate, it’s important to keep track of your donations for tax purposes. Most organizations will provide you with a receipt for your donation so that you can easily document it for tax season.<br>  Donating is a great way to give back and make a difference in your community. Do your research beforehand and make sure you’re donating to a reputable organization so that your money is going towards a good cause!</p>
+            </div>
+        </div>
+
+        <div class="phonepe-div" data-aos="fade-up">
+            <h1 class="part1-heading1">Donation Section</h1>
+            <h1 class="part1-heading1">PhonePe/GPay No: +91 92XXXXXXXX64</h1>
+            <p class="phonepe-para">Scan this to pay via PhonePe</p>
+            <img class="phonepe-img" data-aos="zoom-in" src="https://bizglide.in/images/pay/phone-pe.jpg" alt="">
+        </div>
     </div>
 
 
-    <script> src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init(
             {offset: 120,
-            duration:1000,
-            once:false,
-            mirror:false}
+            duration:1000,}
           );
+          </script>
+          <script>
           const slidedonate = document.querySelector(".slidedonate");
                   slidedonate.onmousemove = function(e) 
                   {
