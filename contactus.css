@@ -700,3 +700,15 @@ transition: all 0.3s ease;
         padding-bottom: 10px;
         }
 }
+
+
+#preloader
+{
+  background: #ffffff url(https://i0.wp.com/codemyui.com/wp-content/uploads/2017/11/gradient-colour-slide-puzzle-style-loading-animation.gif?fit=880%2C440&ssl=1) no-repeat center center;
+  background-size: 20% ;
+   height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+
+}
