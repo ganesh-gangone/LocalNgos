@@ -352,11 +352,18 @@ transition: all 0.3s ease;
     box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
-    border-radius: .8rem;
     margin-bottom: 29px;
     margin-left: 10px;
     margin-right: 10px;
-
+    border-style: solid;
+    margin-right: 10px;
+    border-width: 0px;
+    border-bottom-width: 5px;
+    border-color: white;
+}
+.blog-post:hover{
+    border-color: #ea1538;
+    border-radius: .8rem;
 }
 
 .blog-post_img {
