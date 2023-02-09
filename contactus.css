@@ -714,8 +714,6 @@ transition: all 0.3s ease;
 }
 /*------------scroller and back button*/
 
-
-
   #topbtn {
     display: none;
     position: fixed;
@@ -779,4 +777,4 @@ border-radius: 60px;
 width: 9px;
 background-color: #cb1a1a;
 }
-
+/*--------------top down btn------------------*/
